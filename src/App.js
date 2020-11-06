@@ -3,6 +3,8 @@ import React from 'react';
 
 import './App.css';
 
+// RE: https://egghead.io/lessons/react-handle-http-errors-with-react
+
 function PokemonInfo({ pokemonName }) {
   // A common mistake people make is to create a state variable called `isLoading` and set that to true or false.
   // Instead, we’ll be using a status variable which can be set to idle, pending, resolved, or rejected.
